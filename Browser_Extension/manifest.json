@@ -1,0 +1,25 @@
+{
+	"name": "Jeeves the Cat Butler",
+	"description": "Adds Jeeves the Cat Butler to your browsing experience. Jeeves offers you afternoon tea along with super helpful tips every time you call him to your quarters by clicking the icon!",
+	"version": "2.1",
+
+	"browser_action": {
+		"default_title": "Jeeves the Cat Butler!",
+		"default_icon": "jeeves_icon.png"
+	},
+
+	// What the extensions have permission to access and change
+	"permissions": [
+		"tabs",
+		"notifications",
+		"<all_urls>"
+	],
+
+	// What script to run 
+	"background": {
+		"scripts": [ "background.js" ],
+		"persistent": true
+	},
+
+	"manifest_version": 2
+}
