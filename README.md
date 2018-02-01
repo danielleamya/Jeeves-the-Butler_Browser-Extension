@@ -15,3 +15,15 @@
 	https://www.boredpanda.com/shitty-life-pro-tips/
 
 	Tea images derived from Google Images across a variety of websites.
+	
+	Files:
+	manifest.json - specifies the metadata of the extension and the aspects that comprise the extension as well as the 
+	parameters it uses in its functionality.
+	
+	extension.js - sends the notification information to the background.js script; communicates both the advice and the 
+	helper image used to clarify Jeeves's ideas.
+	
+	background.js - creates the notification and creates a new tab that represents your afternoon tea from your trusty
+	butler Jeeves.
+	
+	
